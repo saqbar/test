@@ -1,0 +1,14 @@
+@charset "utf-8"; /*говорим что в стилях пишем в utf-8*/
+* {margin: 0;padding: 0; outline: none; text-align: center; }
+#form_add{
+    width: 500px;
+    height: 500px;
+    margin: 20px 30%;
+}
+#form_add input,button {width: 500px; margin: 7px;  }
+#form_add h4{margin: 7px;}
+#menu_panel a {margin: 15px;}
+#menu_panel{
+    margin: 0 20%;
+    display: flex;
+}
