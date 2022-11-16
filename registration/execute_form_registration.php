@@ -23,7 +23,7 @@ if (isset($_POST["name"]) && isset($_POST["surname"]) && isset($_POST["login"]) 
             echo "<h1 id='message_about_reg' style='color: red; text-align: center; margin: 20% 0;'>
                     Вы успешно зарегистрировались, поздравляем
               </h1>";
-            header("refresh:2;url=../");  // Перенаправляет через 3 секунды на главную страницу
+            header("refresh:2;url=../");  // Перенаправляет через 2 секунды на главную страницу
             setcookie("my_login", $login, time()+60*60,'/');         // ставим куки с жизнью 60 мин
             setcookie("my_pass", $pass, time()+60*60,'/');
             die();

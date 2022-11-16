@@ -1,5 +1,6 @@
 @charset "utf-8"; /*говорим что в стилях пишем в utf-8*/
 * {margin: 0;padding: 0; outline: none; text-align: center; }
+.txt_dec {text-decoration: none !important;}
 #form_add{
     width: 500px;
     height: 500px;
